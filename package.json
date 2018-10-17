@@ -1,6 +1,7 @@
 {
   "name": "barcelonacafe",
   "version": "0.0.0",
+  "author": "CGC Tecnologia Ltda.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

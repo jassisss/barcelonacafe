@@ -1,3 +1,55 @@
-<p>
-  contact works!
-</p>
+<div class="page_container">
+
+  <div class="breadcrumbs">
+    <div class="container">
+      <ul>
+        <li><a href="/">Site</a></li>
+        <li><span>Entre em contato</span></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="template_contact">
+    <div class="container">
+      <h1 class="page_heading">Entre em contato</h1>
+
+      <div class="rte">
+        Você pode nos contatar de qualquer maneira que seja conveniente para você. Estamos disponíveis email ou telefone. Você também pode usar um formulário de contato rápido abaixo ou visitar nossa loja pessoalmente. Envie-nos um e-mail com dúvidas ou perguntas. Nós ficaríamos felizes em responder-lhe.
+      </div>
+
+
+      <form method="post" action="" id="contact_form" accept-charset="UTF-8" class="contact-form">
+        <input type="hidden" name="form_type" value="contact">
+        <input type="hidden" name="utf8" value="✓">
+
+        <div class="row">
+          <div class="col-sm-3 form-group">
+            <label for="contact_form__name">Nome</label>
+            <input required="" type="text" id="contact_form__name" name="contact[name]" value="">
+          </div>
+
+          <div class="col-sm-3 form-group">
+            <label for="contact_form__email" class="">Email</label>
+            <input required="" type="email" id="contact_form__email" name="contact[email]" value="">
+          </div>
+
+          <div class="col-sm-3 form-group">
+            <label for="contact_form__phone">Telefone</label>
+            <input type="tel" id="contact_form__phone" name="contact[phone]" pattern="[0-9\-]*" value="">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="contact_form__message">Mensagem</label>
+          <textarea required="" id="contact_form__message" name="contact[body]"></textarea>
+        </div>
+
+        <div class="form-group">
+          <button class="btn" type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>

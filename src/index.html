@@ -7,10 +7,10 @@
 
   <title>Barcelona Café</title>
 
+
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
   <base href="/">
-
-  <link rel="shortcut icon" href="./favicon_32x32.png" type="image/png">
-
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -34,7 +34,7 @@
   </style>
 </head>
 
-<body class="template-404" style="overflow: auto;">
+<body class="template-index" style="overflow: auto;">
 <div class="page_wrapper">
 
   <div id="page_preloader__bg" class=" off">
@@ -59,76 +59,15 @@
   <div id="shopify-section-header" class="shopify-section">
     <header id="page_header">
       <div class="page_container">
-        <div class="header_top">
-          <div class="flexbox">
 
-            <!-- HEADER CUSTOM TEXT -->
-            <div class="header_top_custom_text">Bem-vindo à nossa loja online!</div>
-
-            <!-- HEADER LINKS -->
-            <div class="header_links">
-
-					<span>
-						<a href="https://theme353-bakery.myshopify.com/account" title="My account">Minha Conta</a>
-
-
-					</span>
-
-            </div>
-
-            <!-- HEADER CURRENCY -->
-
-
-            <div class="currency_selector">
-              <div class="currency_selector__wrap">
-                <div id="currency_active">REAL</div>
-
-                <ul id="currency_selector">
-                  <li data-value="REAL" id="currency_selected" class="currency_selector__item">REAL</li>
-                  <li data-value="USD" class="currency_selector__item">USD</li>
-                  <li data-value="EUR" class="currency_selector__item">EUR</li>
-                  <li data-value="GBP" class="currency_selector__item">GBP</li>
-                </ul>
-              </div>
-            </div>
-
-            <script>
-              theme.shopCurrency = "REAL";
-              theme.moneyFormat = "${{amount}}";
-              theme.moneyFormatCurrency = "${{amount}} REAL";
-            </script>
-
-            <script src="assets/js/currencies.js" defer=""></script>
-            <script src="assets/js/currency-tools.js" defer=""></script>
-
-
-            <!-- HEADER CART -->
-
-            <div class="header_cart">
-              <a href="https://theme353-bakery.myshopify.com/cart" title="Carrinho">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                <span id="cart_items">0</span> item(s)</a>
-            </div>
-
-          </div>
-        </div>
-
-        <div id="pseudo_sticky_block" style="height: 0px;"></div>
+        <div id="pseudo_sticky_block" style="height: 0;"></div>
 
         <div class="header_center header_stuck">
           <div class="flexbox">
             <!-- HEADER LOGO -->
 
-
             <div class="header_logo">
-
-
-              <a href="https://theme353-bakery.myshopify.com/">
-                <img src="./assets/img/bc_header_logo_02.png" alt="Bakerix">
-
-              </a>
-
-
+              <a href="/"><img src="./assets/img/bc_logo_header_01.png" alt="Barcelona Café"></a>
             </div>
 
             <!-- MEGAMENU -->
@@ -143,477 +82,20 @@
               <ul id="megamenu_level__1" class="level_1 sf-js-enabled sf-arrows" style="">
 
                 <li class="level_1__item ">
-                  <a class="level_1__link active" href="/">Site</a>
+                  <a class="level_1__link active" href="#start">Site</a>
                 </li>
-
-                <li class="level_1__item level_2__links">
-                  <a class="level_1__link sf-with-ul" href="https://theme353-bakery.myshopify.com/collections">Catálogo
-                    <i class="level_1__trigger megamenu_trigger" data-submenu="menu_1479745635495"></i>
-                  </a>
-
-                  <ul class="level_2" id="menu_1479745635495" style="">
-                    <li class="container">
-
-                      <div class="megamenu_col__item">
-                        <h3>Catálogo #1 <i class="level_2__trigger megamenu_trigger" data-submenu="menu_1479745635495-1"></i></h3>
-                        <ul class="level_3" id="menu_1479745635495-1">
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/bread">Pão</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/bread-rolls">Pãezinhos</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/cakes">Bolos</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/cooking-creams">Cremes de Cozinha</a>
-                          </li>
-
-                        </ul>
-                      </div>
-
-
-                      <div class="megamenu_col__item">
-                        <h3>Catálogo #2 <i class="level_2__trigger megamenu_trigger" data-submenu="menu_1479745635495-2"></i></h3>
-                        <ul class="level_3" id="menu_1479745635495-2">
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/bread-rolls">Pãezinhos</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/cakes">Bolos</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/cooking-creams">Cremes de Cozinha</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/desserts">Sobremesas</a>
-                          </li>
-
-                        </ul>
-                      </div>
-
-
-                      <div class="megamenu_col__item">
-                        <h3>Catálogo #3 <i class="level_2__trigger megamenu_trigger" data-submenu="menu_1479745635495-3"></i></h3>
-                        <ul class="level_3" id="menu_1479745635495-3">
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/cooking-creams">Cremes de Cozinha</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/desserts">Sobremesas</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/gluten-free-bakery">Padaria sem Glúten</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/maffins">Bolos Confeitados</a>
-                          </li>
-
-                        </ul>
-                      </div>
-
-
-                      <div class="megamenu_col__item">
-                        <h3>Catálogo #4 <i class="level_2__trigger megamenu_trigger" data-submenu="menu_1479745635495-4"></i></h3>
-                        <ul class="level_3" id="menu_1479745635495-4">
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/desserts">Sobremesas</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/gluten-free-bakery">Padaria sem Glúten</a>e
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/maffins">Bolos Confeitados</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/nut-free-cookies">Bolinhos Livres de Nozes</a>
-                          </li>
-
-                        </ul>
-                      </div>
-
-
-                      <div class="megamenu_col__item">
-                        <h3>Catálogo #5 <i class="level_2__trigger megamenu_trigger" data-submenu="menu_1479745635495-5"></i></h3>
-                        <ul class="level_3" id="menu_1479745635495-5">
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/cakes">Bolos</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/desserts">Sobremesas</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/maffins">Bolos Confeitados</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/toppings-and-icings">Coberturas e Sorvetes</a>
-                          </li>
-
-                        </ul>
-                      </div>
-
-
-                      <div class="megamenu_col__item">
-                        <h3>Catálogo #6 <i class="level_2__trigger megamenu_trigger" data-submenu="menu_1479745635495-6"></i></h3>
-                        <ul class="level_3" id="menu_1479745635495-6">
-
-                          <li class="level_3__item">
-                            <a class="level_3__link"
-                               href="https://theme353-bakery.myshopify.com/collections/toppings-and-icings">Coberturas e Sorvetes</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/nut-free-cookies">Bolinhos Livres de Nozes</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/maffins">Bolos Confeitados</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link"
-                               href="https://theme353-bakery.myshopify.com/collections/gluten-free-bakery">Padaria sem Glúten</a>
-                          </li>
-
-                        </ul>
-                      </div>
-
-
-                    </li>
-                  </ul>
-
-
-                </li>
-
-
-                <li class="level_1__item level_2__small">
-                  <a class="level_1__link sf-with-ul" href="https://theme353-bakery.myshopify.com/pages/about-us">Quem somos?
-                    <i class="level_1__trigger megamenu_trigger" data-submenu="menu_1479745076714"></i>
-                  </a>
-
-
-                  <ul class="level_2" id="menu_1479745076714" style="">
-                    <li>
-                      <div>
-                        <ul class="level_3">
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="/">Site</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/collections/all">Catálogo</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/pages/about-us">Quem somos?</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="/contact">Entre em contato</a>
-                          </li>
-
-                          <li class="level_3__item">
-                            <a class="level_3__link" href="https://theme353-bakery.myshopify.com/blogs/blog">Blog</a>
-                          </li>
-
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-
-
-                </li>
-
-
-                <li class="level_1__item level_2__blog">
-                  <a class="level_1__link sf-with-ul" href="https://theme353-bakery.myshopify.com/blogs/blog">Blog
-                    <i class="level_1__trigger megamenu_trigger" data-submenu="menu_1479747008568"></i>
-
-                  </a>
-
-
-                  <ul class="level_2" id="menu_1479747008568" style="">
-                    <li class="container">
-
-                      <div class="megamenu_col__item">
-
-                        <div class="blog_img">
-                          <img
-                            src="./assets/img/blog3_66c9dbcf-76db-4ce1-94bb-010d149cde46_350x196_crop_center.jpg"
-                            alt="Você pode criar um bolo você mesmo">
-                        </div>
-
-
-                        <div class="blog_info">
-                          <p class="blog_date">
-                            <span>Carlos Almeida - </span>
-                            <span><time class="article_time" datetime="2017-08-23T05:48">23 de janeiro de 2018</time></span>
-                          </p>
-
-                          <h3 class="blog_title">
-                            <a href="https://theme353-bakery.myshopify.com/blogs/blog/you-can-create-a-cake-yourself">Você pode criar um bolo você mesmo...</a>
-                          </h3>
-
-                          <div class="blog_content">
-                            Aqui você vai encontrar o seu pão favorito, biscoitos, bolos, doces e tortas. No entanto, esta não é uma lista completa de...
-                          </div>
-
-                          <a class="btn blog_btn"
-                             href="https://theme353-bakery.myshopify.com/blogs/blog/you-can-create-a-cake-yourself">mais...</a>
-                        </div>
-                      </div>
-
-                      <div class="megamenu_col__item">
-
-                        <div class="blog_img">
-                          <img src="./assets/img/blog1_350x196_crop_center.jpg"
-                               alt="Os mais deliciosos cheesecakes, cookies e cupcakes incrivelmente apetitosos são feitos com amor e paixão por você">
-                        </div>
-
-
-                        <div class="blog_info">
-                          <p class="blog_date">
-                            <span>Regina Freitas - </span>
-                            <span><time class="article_time" datetime="2017-08-22T17:48">5 de julho de 2018</time></span>
-                          </p>
-
-                          <h3 class="blog_title"><a
-                            href="https://theme353-bakery.myshopify.com/blogs/blog/the-most-delicious-cheesecakes-incredibly-appetizing-cookies-and-cupcakes-are-made-with-love-and-passion-for-you">Os mais deliciosos cheesecakes, incrivelmente apetitosos...</a></h3>
-
-                          <div class="blog_content">
-                            Pegando seu bolo em nossa loja, você será auxiliado por nossa equipe amigável, mergulhe em um ambiente aconchegante, ilumine...
-                          </div>
-
-                          <a class="btn blog_btn"
-                             href="https://theme353-bakery.myshopify.com/blogs/blog/the-most-delicious-cheesecakes-incredibly-appetizing-cookies-and-cupcakes-are-made-with-love-and-passion-for-you">mais...</a>
-                        </div>
-                      </div>
-
-                      <div class="megamenu_col__item">
-
-                        <div class="blog_img">
-                          <img src="./assets/img/blog2_350x196_crop_center.jpg"
-                               alt="Aqui você vai encontrar o seu pão favorito, biscoitos, bolos, doces e tortas">
-                        </div>
-
-
-                        <div class="blog_info">
-                          <p class="blog_date">
-                            <span>Augusto Santos - </span>
-                            <span><time class="article_time" datetime="2017-08-22T17:47">16 de junho de 2018</time></span>
-                          </p>
-
-                          <h3 class="blog_title"><a
-                            href="https://theme353-bakery.myshopify.com/blogs/blog/here-you-will-find-your-favorite-bread-cookies-cakes-pastries-and-pies">Aqui você vai encontrar o seu favorito...</a></h3>
-
-                          <div class="blog_content">
-                            É como um cartão delicioso, onde você pode colocar qualquer imagem e qualquer texto que você quiser. Exceto por...
-                          </div>
-
-                          <a class="btn blog_btn"
-                             href="https://theme353-bakery.myshopify.com/blogs/blog/here-you-will-find-your-favorite-bread-cookies-cakes-pastries-and-pies">mais...</a>
-                        </div>
-                      </div>
-
-                      <div class="megamenu_col__item">
-
-                        <div class="blog_img">
-                          <img src="./assets/img/blog3_350x196_crop_center.jpg"
-                               alt="É como um cartão delicioso, onde você pode colocar uma imagem e qualquer texto que você quiser">
-                        </div>
-
-
-                        <div class="blog_info">
-                          <p class="blog_date">
-                            <span>Joanna Alves - </span>
-                            <span><time class="article_time" datetime="2017-08-22T17:45">11 de agosto de 2018</time></span>
-                          </p>
-
-                          <h3 class="blog_title">
-                            <a href="https://theme353-bakery.myshopify.com/blogs/blog/it-is-like-a-delicious-card-where-you-can-place-any-image-and-any-text-that-you-want">É como um cartão delicioso...</a>
-                          </h3>
-
-                          <div class="blog_content">
-                            Convidamos você na mais aconchegante loja online com a mais saborosa padaria Você tem um casamento? Uma festa? Uma...
-                          </div>
-
-                          <a class="btn blog_btn"
-                             href="https://theme353-bakery.myshopify.com/blogs/blog/it-is-like-a-delicious-card-where-you-can-place-any-image-and-any-text-that-you-want">mais...</a>
-                        </div>
-                      </div>
-
-                    </li>
-                  </ul>
-
-
-                </li>
-
-
-                <li class="level_1__item level_2__products">
-                  <a class="level_1__link sf-with-ul" href="https://theme353-bakery.myshopify.com/collections/cakes">Venda
-                    <i class="level_1__trigger megamenu_trigger" data-submenu="menu_1479746552441"></i>
-
-                  </a>
-
-
-                  <ul class="level_2" id="menu_1479746552441" style="">
-                    <li class="container">
-
-                      <div class="megamenu_col__item">
-                        <div class="product">
-                          <div class="product_img">
-                            <a href="https://theme353-bakery.myshopify.com/products/hostess_cupcake">
-                              <img src="./assets/img/hostess_cupcake_1_255x.png"
-                                   alt="Hostess Cupcake">
-                            </a>
-                          </div>
-
-                          <div class="product_info">
-                            <p class="product_name">
-                              <a href="https://theme353-bakery.myshopify.com/products/hostess_cupcake">Bolinho da casa</a>
-                            </p>
-
-                            <p class="product_price">
-                              <span class="money" data-currency-usd="$24.00">R$4,00</span>
-
-
-                              <span class="money money_sale" data-currency-usd="$28.00">R$8,00</span>
-
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="megamenu_col__item">
-                        <div class="product">
-                          <div class="product_img">
-                            <a href="https://theme353-bakery.myshopify.com/products/macarons">
-                              <img src="./assets/img/macarons_1_255x.png" alt="Macarons">
-                            </a>
-                          </div>
-
-                          <div class="product_info">
-                            <p class="product_name">
-                              <a href="https://theme353-bakery.myshopify.com/products/macarons">Biscoitos</a>
-                            </p>
-
-                            <p class="product_price">
-                              <span class="money" data-currency-usd="$22.00">R$2,00</span>
-
-
-                              <span class="money money_sale" data-currency-usd="$33.00">R$3,00</span>
-
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="megamenu_col__item">
-                        <div class="product">
-                          <div class="product_img">
-                            <a href="https://theme353-bakery.myshopify.com/products/patty_with_potatoes_and_meat">
-                              <img src="./assets/img/patty_with_potatoes_and_meat_1_255x.png"
-                                   alt="Patty With Potatoes And Meat">
-                            </a>
-                          </div>
-
-                          <div class="product_info">
-                            <p class="product_name">
-                              <a href="https://theme353-bakery.myshopify.com/products/patty_with_potatoes_and_meat">Empada com Batatas e Carne</a>
-                            </p>
-
-                            <p class="product_price">
-                              <span class="money" data-currency-usd="$12.00">R$5,00</span>
-
-
-                              <span class="money money_sale" data-currency-usd="$20.00">R$5,00</span>
-
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="megamenu_col__item">
-                        <div class="product">
-                          <div class="product_img">
-                            <a href="https://theme353-bakery.myshopify.com/products/raisin_bread">
-                              <img src="./assets/img/raisin_bread_1_255x.png" alt="Raisin Bread">
-                            </a>
-                          </div>
-
-                          <div class="product_info">
-                            <p class="product_name">
-                              <a href="https://theme353-bakery.myshopify.com/products/raisin_bread">Pão de passas</a>
-                            </p>
-
-                            <p class="product_price">
-                              <span class="money" data-currency-usd="$20.00">R$20,00</span>
-
-
-                              <span class="money money_sale" data-currency-usd="$26.00">R$20,00</span>
-
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="megamenu_col__item">
-                        <div class="product">
-                          <div class="product_img">
-                            <a href="https://theme353-bakery.myshopify.com/products/round_gingerbread">
-                              <img src="./assets/img/round_gingerbread_1_255x.png"
-                                   alt="Round Gingerbread">
-                            </a>
-                          </div>
-
-                          <div class="product_info">
-                            <p class="product_name">
-                              <a href="https://theme353-bakery.myshopify.com/products/round_gingerbread">Pão de Mel redondo</a>
-                            </p>
-
-                            <p class="product_price">
-                              <span class="money" data-currency-usd="$16.00">R$16,00</span>
-
-
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-                    </li>
-                  </ul>
-
-
-                </li>
-
 
                 <li class="level_1__item ">
-                  <a class="level_1__link " href="/contact">Entre em contato</a>
-
-
+                  <a class="level_1__link active" href="#product">Produtos</a>
                 </li>
 
+                <li class="level_1__item">
+                  <a class="level_1__link" href="#about">Sobre nós</a>
+                </li>
+
+                <li class="level_1__item ">
+                  <a class="level_1__link " href="#contact">Entre em contato</a>
+                </li>
 
               </ul>
             </nav>
@@ -623,9 +105,9 @@
 
             <div class="header_search">
               <span class="icon material-icons-search elem_toggle"></span>
-              <form action="https://theme353-bakery.myshopify.com/search" method="get" role="search"
+              <form action="/search" method="get" role="search"
                     class="search_form slide_element">
-                <input type="search" name="q" placeholder="Search store" aria-label="Search store">
+                <input type="search" name="q" placeholder="Procure no site" aria-label="Search store">
 
                 <button type="submit">
                   <i class="icon material-icons-search" aria-hidden="true"></i>
@@ -638,14 +120,11 @@
       </div>
     </header>
 
-
   </div>
 
   <div class="page_container">
 
-
     <app-root></app-root>
-
 
     <div id="shopify-section-footer" class="shopify-section">
       <footer>
@@ -653,47 +132,45 @@
           <div class="container">
 
             <div class="row">
+
               <div class="flexbox">
 
-
-                <div class="col-sm-3 footer_block footer_block__2_1">
+                <div class="col-sm-4 footer_block footer_block__2_1">
 
                   <div class="footer_item footer_item__shop_info">
 
-
-                    <a class="footer_logo" href="https://theme353-bakery.myshopify.com/">
-                      <img src="./assets/img/bc_footer_logo_02.png" alt="Bakerix">
+                    <a class="footer_logo" href="/">
+                      <img src="./assets/img/bc_logo_footer_01.png" alt="Bakerix">
 
                     </a>
 
-
                     <ul class="footer_item__social">
                       <li>
-                        <a href="https://www.facebook.com/TemplateMonster/">
-                         <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <a href="https://www.facebook.com/">
+                          <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                       </li>
 
                       <li>
-                        <a href="https://twitter.com/templatemonster">
+                        <a href="https://twitter.com/">
                           <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                       </li>
 
                       <li>
-                        <a href="https://www.instagram.com/tm.opencart/">
+                        <a href="https://www.instagram.com/">
                           <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                       </li>
 
                       <li>
-                        <a href="https://www.pinterest.com/templatemonster/">
+                        <a href="https://www.pinterest.com/">
                           <i class="fa fa-pinterest" aria-hidden="true"></i>
                         </a>
                       </li>
 
                       <li>
-                        <a href="https://www.youtube.com/user/TemplateMonsterCo">
+                        <a href="https://www.youtube.com/">
                           <i class="fa fa-youtube" aria-hidden="true"></i>
                         </a>
                       </li>
@@ -702,16 +179,16 @@
 
 
                     <div class="footer_item footer_item__newsletter">
-
-
-                      <form method="post" action="https://theme353-bakery.myshopify.com/contact#contact_form"
+                      <form method="post" action=""
                             id="newsletter_form" accept-charset="UTF-8" class="contact-form">
                         <input type="hidden" name="form_type" value="customer">
                         <input type="hidden" name="utf8" value="✓">
-                        <p>Assine nossa newsletter para se manter atualizado com nossas promoções, descontos, vendas e ofertas especiais.</p>                                                        <input
-                          type="hidden" name="contact[tags]" value="Newsletter subscriber">
+                        <p>Assine nossa newsletter para se manter atualizado com nossas promoções, descontos, vendas e
+                          ofertas especiais.</p>                                                        <input
+                        type="hidden" name="contact[tags]" value="Newsletter subscriber">
                         <div class="form_wrapper">
-                          <input type="email" name="contact[email]" class="input-group__field newsletter__input" placeholder="Entre com seu e-mail">
+                          <input type="email" name="contact[email]" class="input-group__field newsletter__input"
+                                 placeholder="Entre com seu e-mail">
                           <button class="btn" type="submit">SE INSCREVER!</button>
                         </div>
                       </form>
@@ -722,58 +199,7 @@
 
                 </div>
 
-
-                <div class="col-sm-2 footer_block ">
-
-                  <div class="footer_item footer_item__links">
-                    <h6>COLEÇÕES</h6>
-
-                    <ul>
-
-                      <li>
-                        <a href="https://theme353-bakery.myshopify.com/collections/cakes">Bolos</a>
-                      </li>
-
-                      <li>
-                        <a href="https://theme353-bakery.myshopify.com/collections/cooking-creams">Cremes de Cozinha</a>
-                      </li>
-
-                      <li>
-                        <a href="https://theme353-bakery.myshopify.com/collections/desserts">Sobremesas</a>
-                      </li>
-
-                      <li>
-                        <a href="https://theme353-bakery.myshopify.com/collections/gluten-free-bakery">Padaria sem Glúten</a>
-                      </li>
-
-                      <li>
-                        <a href="https://theme353-bakery.myshopify.com/collections/nut-free-cookies">Bolinhos Livres de Nozes</a>
-                      </li>
-
-                      <li>
-                        <a href="https://theme353-bakery.myshopify.com/collections/toppings-and-icings">Coberturas e Sorvetes</a>
-                      </li>
-
-                      <li>
-                        <a href="https://theme353-bakery.myshopify.com/collections/bread-rolls">Pãezinhos</a>
-                      </li>
-
-                      <li>
-                        <a href="https://theme353-bakery.myshopify.com/collections/maffins">Bolos confeitados</a>
-                      </li>
-
-                      <li>
-                        <a href="https://theme353-bakery.myshopify.com/collections/bread">Pão</a>
-                      </li>
-
-                    </ul>
-                  </div>
-
-
-                </div>
-
-
-                <div class="col-sm-2 footer_block footer_block__2_1">
+                <div class="col-sm-3 footer_block footer_block__2_1">
 
                   <div class="footer_item footer_item__links">
                     <h6>INFORMAÇÕES</h6>
@@ -785,23 +211,19 @@
                       </li>
 
                       <li>
-                        <a href="https://theme353-bakery.myshopify.com/search">Procurar</a>
+                        <a href="#product">Produtos</a>
                       </li>
 
                       <li>
-                        <a href="https://theme353-bakery.myshopify.com/blogs/blog">Blog</a>
+                        <a href="#about">Sobre nós</a>
                       </li>
 
                       <li>
-                        <a href="https://theme353-bakery.myshopify.com/collections">Coleções</a>
+                        <a href="#contact">Entre em contato</a>
                       </li>
 
                       <li>
-                        <a href="https://theme353-bakery.myshopify.com/pages/about-us">Sobre nós</a>
-                      </li>
-
-                      <li>
-                        <a href="/contact">Entre em contato</a>
+                        <a href="#search">Procurar</a>
                       </li>
 
                     </ul>
@@ -810,34 +232,7 @@
 
                 </div>
 
-
-                <div class="col-sm-2 footer_block ">
-
-                  <div class="footer_item footer_item__links">
-                    <h6>MINHA CONTA</h6>
-
-                    <ul>
-
-                      <li>
-                        <a href="https://theme353-bakery.myshopify.com/account">Minha Conta </a>
-                      </li>
-
-                      <li>
-                        <a href="https://theme353-bakery.myshopify.com/account/addresses">Meus endereços </a>
-                      </li>
-
-                      <li>
-                        <a href="https://theme353-bakery.myshopify.com/cart">Meu carrinho </a>
-                      </li>
-
-                    </ul>
-                  </div>
-
-
-                </div>
-
-
-                <div class="col-sm-3 footer_block footer_block__2_1">
+                <div class="col-sm-4 footer_block footer_block__2_1">
 
                   <div class="footer_item footer_item__contacts">
                     <h6>CONTATOS</h6>
@@ -845,16 +240,14 @@
                     <p>
                       <i class="icon material-icons-room"></i>
                       <span class="title">Endereço:</span>
-                      <span>Av. Contorno Sul - Quadra 33 - Lote 3 <br><span>             Parque Anhanguera </span><br><span>             Goiânia - GO</span></span>
-
-
+                      <span>Av. Contorno Sul - Quadra 33 - Lote 3 <br><span>Parque Anhanguera</span><br><span>Goiânia - GO</span></span>
                     </p>
 
                     <p>
                       <i class="icon material-icons-local_phone"></i>
                       <span class="title">Telefones:</span>
                       <span><a href="tel:800-2345-6789">+55 62 3624-5611</a></span>
-                      <span>; <a href="tel:800-2345-6789">+55 62 99189-8877</a></span>
+                      <span>; <a href="tel:800-2345-6789">+55 62 98576-1897</a></span>
                     </p>
 
                     <p>
@@ -863,7 +256,7 @@
                       <span class="title">Segunda-feira a sexta-feira:</span>
                       <span>de 6:00hs às 20:00hs</span><br>
                       <span class="title">Sábado:</span>
-                      <span>de 6:00hs às 20:00hs</span><br>
+                      <span>de 6:00hs às 18:00hs</span><br>
                       <span class="title">Domingo e feriádos:</span>
                       <span>de 6:00hs às 12:00hs</span>
                     </p>
@@ -889,7 +282,6 @@
           </div>
 
         </div>
-
 
         <div class="footer_row__2">
           <div class="container">
@@ -921,15 +313,16 @@
           </div>
         </div>
 
-
       </footer>
 
     </div>
+
   </div>
 
-  <a id="back_top" href="https://theme353-bakery.myshopify.com/products/hankook-dynapro-as-rh05-all-season-tire#">
+  <a id="back_top" href="#start">
     <i class="fa fa-angle-up" aria-hidden="true"></i>
   </a>
+
 </div>
 
 <script src="assets/js/assets.js" defer=""></script>
@@ -957,71 +350,71 @@
 <!--<meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/22915357/digital_wallets/dialog">-->
 <style>
   .shopify-payment-button__button--hidden {
-  visibility: hidden;
-}
+    visibility: hidden;
+  }
 
-.shopify-payment-button__button {
-  border-radius: 4px;
-  border: none;
-  box-shadow: 0 0 0 0 transparent;
-  color: white;
-  cursor: pointer;
-  display: block;
-  font-size: 1em;
-  font-weight: 500;
-  line-height: 1;
-  text-align: center;
-  width: 100%;
-  transition: background 0.2s ease-in-out;
-}
+  .shopify-payment-button__button {
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 0 0 transparent;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    width: 100%;
+    transition: background 0.2s ease-in-out;
+  }
 
-.shopify-payment-button__button[disabled] {
-  opacity: 0.6;
-  cursor: default;
-}
+  .shopify-payment-button__button[disabled] {
+    opacity: 0.6;
+    cursor: default;
+  }
 
-.shopify-payment-button__button--unbranded {
-  background-color: #1990c6;
-  padding: 1em 2em;
-}
+  .shopify-payment-button__button--unbranded {
+    background-color: #1990c6;
+    padding: 1em 2em;
+  }
 
-.shopify-payment-button__button--unbranded:hover:not([disabled]) {
-  background-color: #136f99;
-}
+  .shopify-payment-button__button--unbranded:hover:not([disabled]) {
+    background-color: #136f99;
+  }
 
-.shopify-payment-button__more-options {
-  background: transparent;
-  border: 0 none;
-  cursor: pointer;
-  display: block;
-  font-size: 1em;
-  margin-top: 1em;
-  text-align: center;
-  width: 100%;
-}
+  .shopify-payment-button__more-options {
+    background: transparent;
+    border: 0 none;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    margin-top: 1em;
+    text-align: center;
+    width: 100%;
+  }
 
-.shopify-payment-button__more-options:hover:not([disabled]) {
-  text-decoration: underline;
-}
+  .shopify-payment-button__more-options:hover:not([disabled]) {
+    text-decoration: underline;
+  }
 
-.shopify-payment-button__more-options[disabled] {
-  opacity: 0.6;
-  cursor: default;
-}
+  .shopify-payment-button__more-options[disabled] {
+    opacity: 0.6;
+    cursor: default;
+  }
 
-.shopify-payment-button__button--branded {
-  display: flex;
-  flex-direction: column;
-  min-height: 44px;
-  position: relative;
-  z-index: 1;
-}
+  .shopify-payment-button__button--branded {
+    display: flex;
+    flex-direction: column;
+    min-height: 44px;
+    position: relative;
+    z-index: 1;
+  }
 
-.shopify-payment-button__button--branded .shopify-cleanslate {
-  flex: 1 !important;
-  display: flex !important;
-  flex-direction: column !important;
-}
+  .shopify-payment-button__button--branded .shopify-cleanslate {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
 </style>
 <script id="shopify-features" type="application/json">{
   "accessToken": "32e180b2d18e29d10fe626d8396764ff",
@@ -1054,10 +447,10 @@ var meta = {"page": {}};
 for (var attr in meta) {
   window.ShopifyAnalytics.meta[attr] = meta[attr];
 }</script>
-/*<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function () {
+<!--/*<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function () {
 
 };
-</script>*/
+</script>*/-->
 <script class="analytics">(function () {
   var customDocumentWrite = function (content) {
     var jquery = null;
@@ -1140,7 +533,7 @@ for (var attr in meta) {
       window.ShopifyAnalytics.merchantGoogleAnalytics.call(this);
     } catch (error) {
     }
-    ;
+
     document.write = originalDocumentWrite;
 
 
@@ -1165,7 +558,8 @@ for (var attr in meta) {
 <script integrity="sha256-NfqRkSQwKw0JfNupCky6Zxtoijw8YUA8km/3gYu7kY8=" defer="defer"
         src="assets/js/features.js"
         crossorigin="anonymous"></script>
-<script id="sections-script" data-sections="index-slideshow,index-featured-products,index-image-with-text-overlay,header" defer="defer"
+<script id="sections-script"
+        data-sections="index-slideshow,index-featured-products,index-image-with-text-overlay,header" defer="defer"
         src="assets/js/scripts.js"></script>
 <!--
 
@@ -1175,7 +569,8 @@ for (var attr in meta) {
 -->
 
 
-<iframe src="./assets/html/dialog.html" scrolling="no" tabindex="-1" aria-hidden="true" style="position: fixed; top: 0px; left: 0px; z-index: 99999; height: 0px; width: 0px; border: 0px;"></iframe>
+<iframe src="./assets/html/dialog.html" scrolling="no" tabindex="-1" aria-hidden="true"
+        style="position: fixed; top: 0; left: 0; z-index: 99999; height: 0; width: 0; border: 0;"></iframe>
 <div>
   <link href="./assets/scss/responsive.scss.css" rel="stylesheet" type="text/css" media="all">
   <link href="./assets/scss/css.css" rel="stylesheet" type="text/css">
